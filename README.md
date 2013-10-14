@@ -1,0 +1,4 @@
+variational
+===========
+
+Variational Inference
