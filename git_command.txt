@@ -1,0 +1,26 @@
+git init
+
+touch test.py
+
+git add test.py
+
+git commit -m "First Commit"
+
+git remote add origin https://github.com/andybaoxv/HelloWorld.git
+
+git push origin master
+
+
+HOW to fork a Rep?
+git clone https://github.com/andybaoxv/Spoon-Knife.git
+cd Spoon-Knife
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+git fetch upstream
+
+Push Commits:
+git push origin master
+
+Pull in upstream changes
+git fetch upstream
+git merge upstream/master
+
